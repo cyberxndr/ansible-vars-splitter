@@ -6,6 +6,7 @@ Ansible is a great tool for managing servers. It allows to control multiple serv
 
 ## Solution
 We can split a single json file by keys, and place them into the individual files.
+
 `./script.py`
 
 So the following file
