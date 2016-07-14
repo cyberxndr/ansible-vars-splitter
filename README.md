@@ -40,4 +40,4 @@ will be splitted into the parts and placed into a `/etc/ansible/host_vars` folde
 ```
 
 ### Conclusion
-The script can be useful when we need to store a lot of similar variables for multiple hosts. We can change them in a one place and run the script then to mirror changes. 
+The script can be useful when we need to store a lot of similar variables for the multiple hosts. We can change them in a one place and run the script then to mirror changes. 
