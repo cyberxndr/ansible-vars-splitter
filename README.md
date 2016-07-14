@@ -1,5 +1,5 @@
 # ansible-vars-splitter
-Split single json file into the multiple files.
+Split a single json file with the host variables into the multiple files.
 
 ## The problem
 Ansible is a great tool for managing servers. It allows to control multiple servers at once. Sometimes we need to use host variables for the maintance purposes. The [default scenario](http://docs.ansible.com/ansible/playbooks_variables.html) is to store this variables into the separate files inside the `host_vars` folder. It can be useful, but not really comfortable in cases when we have a lot of hosts with the same variables.We may want to store them in a one place instead. But Ansible expects to get an individual file for the each host.
